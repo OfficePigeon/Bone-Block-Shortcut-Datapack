@@ -1,11 +1,11 @@
 {
 	"pack": {
-		"pack_format": 15,
+		"pack_format": 57,
 		"supported_formats": {
-			"min_inclusive": 15,
+			"min_inclusive": 57,
 			"max_inclusive": 95
 		},
-		"min_format": 15,
+		"min_format": 57,
 		"max_format": 95,
 		"description": "Make Bone Blocks directly from Bones"
 	}

@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"wich:bone_to_bone_block"
+		]
+	},
+	"criteria": {
+		"has_bone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#minecraft:bone"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "wich:bone_to_bone_block"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_bone",
+			"has_the_recipe"
+		]
+	]
+}
